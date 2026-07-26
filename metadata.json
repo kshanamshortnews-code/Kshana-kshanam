@@ -1,0 +1,6 @@
+{
+  "name": "క్షణ క్షణం",
+  "description": "తాజా వార్తల వీక్షణం - 16:9 ఇన్స్టాగ్రామ్, టిక్ టాక్ శైలిలో టెలిగు వార్తల యాప్",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

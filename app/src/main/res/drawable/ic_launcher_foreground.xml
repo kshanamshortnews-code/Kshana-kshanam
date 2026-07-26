@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White Circular Badge Container (Center 54,54, Radius 32) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,22 A32,32 0 1,1 53.9,22 Z" />
+
+    <!-- Dual Color Red & Navy Blue Outer Ring -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M54,20 A34,34 0 0,1 88,54 L83,54 A29,29 0 0,0 54,25 Z" />
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M54,88 A34,34 0 0,1 20,54 L25,54 A29,29 0 0,0 54,83 Z" />
+
+    <!-- Gold Accent Border Ring -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.5"
+        android:pathData="M54,22 A32,32 0 1,1 53.9,22 Z" />
+
+    <!-- Time/Speed Dial Arc ("క్షణం") -->
+    <path
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M40,32 A22,22 0 0,1 70,44" />
+    <!-- Speed Needles -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M52,48 L66,36" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M52,48 A3,3 0 1,1 51.9,48 Z" />
+
+    <!-- Motion Speed Lines (Left) -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M24,40 H34 M22,46 H38 M26,52 H34" />
+
+    <!-- News Microphone (Right) -->
+    <!-- Mic Metallic Grid -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M64,40 A6,6 0 0,1 76,40 L76,48 A6,6 0 0,1 64,48 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M66,42 A4,4 0 0,1 74,42 L74,46 A4,4 0 0,1 66,46 Z" />
+    <!-- Red "NEWS" Flag Box -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M62,50 L78,50 L78,60 L62,60 Z" />
+    <!-- White text simulation -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,53 h2 v4 h-2 z M67,53 h2 v4 h-2 z M70,53 h2 v4 h-2 z M73,53 h2 v4 h-2 z" />
+    <!-- Mic Handle -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M68,60 L72,60 L71,72 L69,72 Z" />
+
+    <!-- Gold & Crimson Banner ("తాజా వార్తలు") -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M26,68 L82,68 L78,80 L30,80 Z" />
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M28,70 L80,70 L77,78 L31,78 Z" />
+
+</vector>
+
